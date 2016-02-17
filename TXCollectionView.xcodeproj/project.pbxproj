@@ -14,6 +14,11 @@
 		6AD844311B0DBF8E00EE4084 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AD844301B0DBF8E00EE4084 /* Images.xcassets */; };
 		6AD844341B0DBF8E00EE4084 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AD844321B0DBF8E00EE4084 /* LaunchScreen.xib */; };
 		6AD844401B0DBF8E00EE4084 /* TXCollectionViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD8443F1B0DBF8E00EE4084 /* TXCollectionViewTests.m */; };
+		6AD8444B1B0DBFEC00EE4084 /* CollectViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD8444A1B0DBFEC00EE4084 /* CollectViewLayout.m */; };
+		6AD8444F1B0DC08A00EE4084 /* LabelCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD8444D1B0DC08A00EE4084 /* LabelCollectionViewCell.m */; };
+		6AD844501B0DC08A00EE4084 /* LabelCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AD8444E1B0DC08A00EE4084 /* LabelCollectionViewCell.xib */; };
+		6AD844531B0DC74B00EE4084 /* ClickImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD844521B0DC74B00EE4084 /* ClickImage.m */; };
+		6AD844551B0DC82600EE4084 /* 绝世宠妃.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6AD844541B0DC82600EE4084 /* 绝世宠妃.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +45,14 @@
 		6AD844391B0DBF8E00EE4084 /* TXCollectionViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TXCollectionViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AD8443E1B0DBF8E00EE4084 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6AD8443F1B0DBF8E00EE4084 /* TXCollectionViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TXCollectionViewTests.m; sourceTree = "<group>"; };
+		6AD844491B0DBFEC00EE4084 /* CollectViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectViewLayout.h; sourceTree = "<group>"; };
+		6AD8444A1B0DBFEC00EE4084 /* CollectViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectViewLayout.m; sourceTree = "<group>"; };
+		6AD8444C1B0DC08A00EE4084 /* LabelCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelCollectionViewCell.h; sourceTree = "<group>"; };
+		6AD8444D1B0DC08A00EE4084 /* LabelCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelCollectionViewCell.m; sourceTree = "<group>"; };
+		6AD8444E1B0DC08A00EE4084 /* LabelCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LabelCollectionViewCell.xib; sourceTree = "<group>"; };
+		6AD844511B0DC74B00EE4084 /* ClickImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClickImage.h; sourceTree = "<group>"; };
+		6AD844521B0DC74B00EE4084 /* ClickImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClickImage.m; sourceTree = "<group>"; };
+		6AD844541B0DC82600EE4084 /* 绝世宠妃.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "绝世宠妃.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +94,19 @@
 		6AD844221B0DBF8E00EE4084 /* TXCollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				6AD844541B0DC82600EE4084 /* 绝世宠妃.jpg */,
 				6AD844271B0DBF8E00EE4084 /* AppDelegate.h */,
 				6AD844281B0DBF8E00EE4084 /* AppDelegate.m */,
+				6AD844491B0DBFEC00EE4084 /* CollectViewLayout.h */,
+				6AD8444A1B0DBFEC00EE4084 /* CollectViewLayout.m */,
+				6AD8444C1B0DC08A00EE4084 /* LabelCollectionViewCell.h */,
+				6AD8444D1B0DC08A00EE4084 /* LabelCollectionViewCell.m */,
+				6AD8444E1B0DC08A00EE4084 /* LabelCollectionViewCell.xib */,
 				6AD8442A1B0DBF8E00EE4084 /* ViewController.h */,
 				6AD8442B1B0DBF8E00EE4084 /* ViewController.m */,
 				6AD8442D1B0DBF8E00EE4084 /* Main.storyboard */,
+				6AD844511B0DC74B00EE4084 /* ClickImage.h */,
+				6AD844521B0DC74B00EE4084 /* ClickImage.m */,
 				6AD844301B0DBF8E00EE4084 /* Images.xcassets */,
 				6AD844321B0DBF8E00EE4084 /* LaunchScreen.xib */,
 				6AD844231B0DBF8E00EE4084 /* Supporting Files */,
@@ -199,9 +220,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AD844551B0DC82600EE4084 /* 绝世宠妃.jpg in Resources */,
 				6AD8442F1B0DBF8E00EE4084 /* Main.storyboard in Resources */,
 				6AD844341B0DBF8E00EE4084 /* LaunchScreen.xib in Resources */,
 				6AD844311B0DBF8E00EE4084 /* Images.xcassets in Resources */,
+				6AD844501B0DC08A00EE4084 /* LabelCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,7 +243,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6AD8442C1B0DBF8E00EE4084 /* ViewController.m in Sources */,
+				6AD8444F1B0DC08A00EE4084 /* LabelCollectionViewCell.m in Sources */,
+				6AD8444B1B0DBFEC00EE4084 /* CollectViewLayout.m in Sources */,
 				6AD844291B0DBF8E00EE4084 /* AppDelegate.m in Sources */,
+				6AD844531B0DC74B00EE4084 /* ClickImage.m in Sources */,
 				6AD844261B0DBF8E00EE4084 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,7 +323,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -333,7 +359,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -346,6 +372,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TXCollectionView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -356,6 +383,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TXCollectionView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -414,6 +442,7 @@
 				6AD844451B0DBF8E00EE4084 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6AD844461B0DBF8E00EE4084 /* Build configuration list for PBXNativeTarget "TXCollectionViewTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +451,7 @@
 				6AD844481B0DBF8E00EE4084 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
